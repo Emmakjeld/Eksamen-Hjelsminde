@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav a{
+    text-decoration: none;
+    color: rgba(24, 64, 83, 1);
+    margin-right: 1cm;
+    font-family:'Montserrat', sans-serif;
+}
+nav a:hover {
+    border-bottom: 2px solid rgba(188, 214, 239, 1);
+  }
+header{display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    }
+
+
+#video_pladsholder{
+    width: 100%;
+    height: 800px;
+    background-color:rgba(24, 64, 83, 1) ;
+}
+
+.tre_kort{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    align-items: center;
+    background:rgba(24, 64, 83, 1);
+    
+}
+
+h3{ 
+    font-family:'Montserrat', sans-serif;
+}
+
+h4{ font-family:'Montserrat', sans-serif;}
+
+.tre_kort > section{
+    width: 350px;
+    height: 600px;
+    background-color:rgba(188, 214, 239, 1);
+    text-align: center;
+    line-height: 20px;
+    margin-top: 3%;
+    align-items: center;
+    padding-top: 2%;
+    margin-bottom: 4%;
+}
+
+ .pladsholder{
+    width: 350px;
+    height: 350px;
+}
+
+.laes_mere{
+    color: rgba(188, 214, 239, 1);
+    font-family:'Montserrat', sans-serif;
+    font-size: 10pt;
+    width: 120px;
+    height: 35px;
+    border: none;
+    background:rgba(24, 64, 83, 1);
+    margin-top: 2%;}
+
+#firkant{width: 100%;
+    height: 700px;
+    background-color:rgba(195, 210, 203, 1) ;
+}
+
+#firkant2{width: 100%;
+    height: 1500px;
+background-color: rgba(188, 214, 239, 1);
+}
+
+footer{
+    background-color: rgba(24, 64, 83, 1);;
+    color: rgba(188, 214, 239, 1); 
+}
+
+footer p{
+    font-family:'Montserrat', sans-serif;
+    line-height: 22px;
+}
+
+footer div {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+footer div section{
+    height: 50%;
+    width: 30%;
+    padding: 2%;
+}
+
+#maps{padding: 2%;
+margin-left: 10%;
+margin-top: 3%;}
+
+.blaelinje{ width: 30px;
+    height: 2px;
+    background-color:rgba(24, 64, 83, 1);
+    margin-left: 46%;
+    margin-top: 2%;
+margin-bottom: 2%;}
+
+
+.billede_højreside{
+position: absolute;
+width: 762px;
+height: 571px;
+left: 40%;
+top: 110%;
+}
+
+.tekstfirkant_venstre{
+position: absolute;
+width: 660px;
+height: 392px;
+left: 5%;
+top: 122%;
+background:rgba(24, 64, 83, 1) ;
+z-index: 1;
+}
+
+.blaeoverskrift{font-family:'Montserrat', sans-serif;
+color: rgba(188, 214, 239, 1);}
+
+p{font-family:'Montserrat', sans-serif;
+    color: rgba(188, 214, 239, 1);}
+
+ol{font-family:'Montserrat', sans-serif;
+    color: rgba(188, 214, 239, 1);}
+
+.tekstfirkant_højre{
+position: absolute;
+width: 662px;
+height: 392px;
+left: 48%;
+top: 208%;
+background:rgba(24, 64, 83, 1);
+z-index: 1;
+}
+
+.billede_venstreside{
+position: absolute;
+width: 762px;
+height: 575px;
+left: 75px;
+top: 195%;
+}
+
+.blaetekstfirkant_venstre{
+position: absolute;
+width: 660px;
+height: 392px;
+left: 5%;
+top: 25%;
+background:rgba(188, 214, 239, 1);
+z-index: 1;
+}
+
+#firkant_havn{
+    background-color:rgba(24, 64, 83, 1);
+    width: 100%;
+    height: 1500px;
+}
+
+#firkant_hejlsnor{
+    background-color:rgba(69, 98, 89, 1);
+    width: 100%;
+    height: 1500px; 
+}
+
+.groentekstfirkant_venstre{
+position: absolute;
+width: 660px;
+height: 392px;
+left: 5%;
+top: 25%;
+background:rgba(195, 210, 203, 1);
+z-index: 1;
+}
+
+#groenoverskrift{font-family:'Montserrat', sans-serif;
+    color: rgba(69, 98, 89, 1);
+
+}
+
+#groentekst{font-family:'Montserrat', sans-serif;
+    color: rgba(69, 98, 89, 1);}
+
+    #skrivmail {
+        width: 60%;
+        padding: 10px;
+        background-color:white;
+        border: none;
+        color:rgba(24, 64, 83, 1) ;
+        font-family:'Montserrat', sans-serif;
+        font-size: 15px;
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    #tilmeld{
+    width: 30%;
+    padding: 10px;
+    background-color:rgba(188, 214, 239, 1) ;
+    border: none;
+    font-family:'Montserrat', sans-serif;
+    font-size: 15px;
+    text-align: left;
+    color:rgba(24, 64, 83, 1) ;
+    margin-top: 10px;}
