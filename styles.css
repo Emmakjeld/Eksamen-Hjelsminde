@@ -489,10 +489,45 @@ margin-top: 2%;
 .trebilleder{
     display: flex;
     align-items: center;
-    justify-content: space-around;
+   justify-content: center;
     padding: 4%;
 }
 
+/*Laptop*/
+@media only screen and (min-width:768px){
+    #laptopmenu{
+        display:block;
+    }
+
+    #mobilheader{
+        display:none;
+    }
+
+ 
+    #laptoplogo{
+        display: block;
+    }
+
+    #mobillogo{
+        display: none;
+    }
+
+    #laptopvideo{
+        display: block;
+    }
+
+    #mobilvideo{
+        display: none;
+    }
+
+    .billede_højreside{
+        display: block;
+    }
+
+    .mobilbillede_hoejre{
+        display: none;
+    }
+}
 
 
 /*Mobil*/
@@ -507,16 +542,45 @@ margin-top: 2%;
             margin-right: 2%;
     }
 
-}
-
-/*Laptop*/
-@media only screen and (min-width:768px){
-    #laptopmenu{
-        display:block;
+   #laptoplogo{
+        display: none;
     }
 
-    #mobilheader{
-        display:none;
+    #mobillogo{
+        display: block
+        
     }
 
+    #laptopvideo{
+        display: none;
+    }
+
+    #video_pladsholder{
+        display: none;
+    }
+
+    #mobilvideo{
+        width: 100%; 
+        background-color:rgba(24, 64, 83, 1);
+    }
+
+    footer div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    footer div section{
+        height: 50%;
+        width: 100%;
+        padding: 5%;
+    }
+
+    .billede_højreside{
+        display: none;
+    }
+
+    .mobilbillede_hoejre{
+        display: flex;
+    }
 }
+
