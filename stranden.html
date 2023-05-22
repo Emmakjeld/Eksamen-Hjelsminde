@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap">
     <title>Stranden</title>
 </head>
 <body>
@@ -13,40 +14,29 @@
         <a href="index.html"> <img src="billeder/logo.png" alt="Hejlsminde">
         </a>
     
-        <nav>
+        <nav id="laptopmenu">
             <a class="stranden.html">STRANDEN</a>
             <a href="lystbaedehavnen.html">LYSTBÅDEHAVNEN</a>
             <a href="hejlsnor.html">HEJLS NOR</a>
-            <a href="">INSPIRATION</a>
+            <a href="inspiration.html">INSPIRATION</a>
         </nav>
-    
+
+        <a id="mobilheader" href="menu.html">
+            <img src="billeder/burgermenu.png" alt="burgermenu">
+        </a>
        
+        
     </header>  
 <main>
-    <div class="tre_kort">
-        <section>
-            <div class="pladsholder"><img src="billeder/kort1.png" alt="Fiskerhusene"></div>
-            <h3>AKTIVITETER PÅ STRANDEN</h3>
-            <div class="blaelinje"></div>
-            <h4>Stranden i Hejlsminde byder på mange forskellige aktiviteter på stranden for familien. Det er muligt at spille alt fra volleyball til kongespil.</h4>
-            <button class="laes_mere" type="button">LÆS MERE</button>
-        </section>
-    
-        <section>
-            <div class="pladsholder"><img src="billeder/kort2.png" alt="Volleyball_bane"></div>
-            <h3>AKTIVITETER PÅ VANDET</h3>
-            <div class="blaelinje"></div>
-            <h4>Hejlsminde er det oplagte sted til aktiviteter på vandet. Det er muligt at stå på paddle board eller tage en tur i kajakken.</h4>
-            <button class="laes_mere" type="button">LÆS MERE</button>
-            
-        </section>
+   
     
         
 
         <div id="firkant2">
             <div class="tekstfirkant_venstre">
-            <h3 class="blaeoverskrift">DEN PERFEKTE LAVVANDEDE STRAND</h3>
-            <p>Stranden i Hejlsminde er den perfekte lavvandede strand for hele familien. Det er meget sjældent, at der er store bølger, da Hejlsminde ligger inde i en bugt. Selvom stranden er børnevenlig, er det stadig vigtigt at huske på de fem baderåd. </p>
+            <h2 class="blaeoverskrift">DEN PERFEKTE LAVVANDEDE STRAND</h2>
+            <br>
+            <p>Stranden i Hejlsminde er den perfekte lavvandede strand for hele familien. Det er meget sjældent, at der er store bølger, da Hejlsminde ligger inde i en bugt. Selvom stranden er børnevenlig, er det stadig vigtigt at huske på de fem baderåd: </p>
            <br>
             <ol>
                 <li>Lær at svømme.</li>
@@ -57,24 +47,46 @@
               </ol>
               <br>
                 
-            <p>Da der ikke er mange bølger, er det også det oplagte sted for diverse vandaktiviteter, såsom Stand Up Paddle eller kajak. Det er dog ikke muligt at leje tingene på stranden, det skal man selv sørge for.
+            <p>Da der ikke er mange bølger, er det også det oplagte sted for diverse vandaktiviteter, såsom Stand Up Paddle eller kajak. Det er dog ikke muligt at leje tingene på stranden, det skal man selv sørge for at have med.
             </p>
 
             </div>
             <img class="billede_højreside" src="billeder/stortbillede_strand.png" alt="Stranden">
 
             <div class="tekstfirkant_højre">
-            <h3 class="overskrift_strand">AKTIVITETER FOR HELE FAMILIEN</h3>
-            <p>I Hjelsminde kan man lave mange forskellige aktiviteter, hvor hele familien kan være med.
-               Der er blandt andet en volleyball bane på stranden, som alle må bruge. Man skal dog selv huske at have en bold med.
-               På stranden er der også et større areal, hvor familien også kan lave forskellige aktiviteter. 
+            <h2 class="blaeoverskrift">AKTIVITETER FOR HELE FAMILIEN</h2>
+            <br>
+            <p>I Hejlsminde kan man lave mange forskellige aktiviteter, hvor hele familien kan være med.
+               Der er blandt andet en volleyball bane på stranden, som alle må bruge. Man skal dog selv huske at have en bold med.</p>
+             <br>  
+            <p>På stranden er der også et større areal, hvor familien også kan lave forskellige aktiviteter. 
                Man kan for eksempel spille kongespil, fodbold eller andre former for boldspil. Hele området er til fri afbenyttelse,
-               man skal dog bare huske at tage hensyn til strandens andre gæster. 
+               man skal bare huske at tage hensyn til strandens andre gæster. 
             </p>
             </div>
             <img class="billede_venstreside" src="billeder/stortbillede_volleyball.png" alt="Volleyballbane">
 
         </div>
+
+        <div class="to_kort">
+            <section>
+                <div class="pladsholder"><img src="billeder/kort2.png" alt="Fiskerhusene"></div>
+                <h3 class="overskrift_kortblae">AKTIVITETER PÅ STRANDEN</h3>
+                <div class="blaelinje"></div>
+                <p class="tekst_kortblae">Stranden i Hejlsminde byder på mange forskellige aktiviteter på stranden for familien. Det er muligt at spille alt fra volleyball til kongespil.</p>
+                <br>
+                <button class="laes_mereblae" type="button">LÆS MERE</button>
+            </section>
+        
+            <section>
+                <div class="pladsholder"><img src="billeder/kort4.png" alt="Volleyball_bane"></div>
+                <h3 class="overskrift_kortblae">AKTIVITETER PÅ VANDET</h3>
+                <div class="blaelinje"></div>
+                <p class="tekst_kortblae">Hejlsminde er det oplagte sted til aktiviteter på vandet. Det er muligt at stå på paddle board eller tage en tur i kajakken.</p>
+                <br>
+                <button class="laes_mereblae" type="button">LÆS MERE</button>
+                
+            </section>
 
 </main>
 
@@ -82,7 +94,7 @@
     <div>
         <section>
             <h4>OM OS</h4>
-            <p>Denne hjemmeside er lavet af
+            <p class="tekst_footer">Denne hjemmeside er lavet af
                 <br> 
                den lokale borgerforening i Hejlsminde.
                <br>
@@ -93,7 +105,7 @@
     
         <section>
             <h4>NYHEDSBREV</h4>
-                    <p>Tilmeld dig vores nyhedsbrev og bliv opdateret på informationer og aktiviteter i Hejlsminde.
+                    <p class="tekst_footer">Tilmeld dig vores nyhedsbrev og bliv opdateret på informationer og aktiviteter i Hejlsminde.
                     </p>
 
                     <p id="skrivmail">

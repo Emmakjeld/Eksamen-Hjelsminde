@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap">
     <title>Hejlsminde</title>
 </head>
 <body>
@@ -14,19 +15,22 @@
     <a href="index.html"> <img src="billeder/logo.png" alt="Hejlsminde">
     </a>
 
-    <nav>
+    <nav id="laptopmenu">
         <a href="stranden.html">STRANDEN</a>
         <a href="lystbaedehavnen.html">LYSTBÅDEHAVNEN</a>
         <a href="hejlsnor.html">HEJLS NOR</a>
-        <a href="">INSPIRATION</a>
+        <a href="inspiration.html">INSPIRATION</a>
     </nav>
 
+    <a id="mobilheader" href="menu.html">
+        <img src="billeder/burgermenu.png" alt="burgermenu">
+    </a>
    
 </header>
 
 <main>
 <div id="video_pladsholder">
-    <video width="100%" height="800" autoplay>
+    <video width="100%" height="900" autoplay>
         <source src="billeder/video.MOV" type="video/mp4">
         <source src="movie.ogg" type="video/ogg">
     </video>
@@ -37,26 +41,33 @@
     <section>
         <div class="pladsholder"><img src="billeder/kort1.png" alt="Fiskerhusene"></div>
         <h3>FACILITETER</h3>
-        <div class="blaelinje"></div>
-        <h4>I Hejlsminde kan du finde alle de nødvendige faciliteter. Der er både toilet, gode parkeringsmuligheder, samt mange bordbænkesæt. Alle besøgende kan i Hejlsminde kan bruge alle faciliteterne.</h4>
+         <br>
+        <p class="tekst_kort">I Hejlsminde kan du finde alle de nødvendige faciliteter. Der er både toilet, gode parkeringsmuligheder, samt mange bordbænkesæt. Alle besøgende kan i Hejlsminde kan bruge alle faciliteterne.</p>
+        <a href="faciliteter.html">
         <button class="laes_mere" type="button">LÆS MERE</button>
+         </a>
     </section>
 
     <section>
-        <div class="pladsholder"><img src="billeder/kort2.png" alt="Volleyball_bane"></div>
+        <div class="pladsholder"></a><img src="billeder/kort2.png" alt="Volleyball_bane"></div>
         <h3>AKTIVITETER</h3>
-        <div class="blaelinje"></div>
-        <h4>Stranden i Hejlsminde er det oplagte sted til diverse aktiviteter. Det er blandet andet muligt at lave forskellige aktiviteter i vandet, da stranden er lavvandede og der sjældent er mange bølger, da Hejlsminde ligger i en bugt i Lillebælt.</h4>
+        <br>
+        <p class="tekst_kort">Stranden i Hejlsminde er det oplagte sted til diverse aktiviteter. Det er blandet andet muligt at lave forskellige aktiviteter i vandet, da stranden er lavvandede og der sjældent er mange bølger.</p>
+        <a href="stranden.html">
         <button class="laes_mere" type="button">LÆS MERE</button>
+        </a>
+    
         
     </section>
 
     <section> 
         <div class="pladsholder"><img src="billeder/kort3.png" alt="Krabbevæddeløbsbane"></div>      
         <h3>INSPIRATION</h3>
-        <div class="blaelinje"></div>
-        <h4>Mangler du inspiration til den næste familieudflugt? Så kan du finde inspiration her. Hejlsminde har en masse at tilbyde for familier, der ønsker at have en dag med hyggeligt samvær ude i naturen.</h4>
+       <br>
+        <p class="tekst_kort">Mangler du inspiration til den næste familieudflugt? Så kan du finde inspiration her. Hejlsminde har en masse at tilbyde for familier, der ønsker at have en dag med hyggeligt samvær ude i naturen.</p>
+        <a href="inspiration.html">
         <button class="laes_mere" type="button">LÆS MERE</button>
+        </a>
     </section>
 
     <div id="firkant">
@@ -68,7 +79,7 @@
 <div>
     <section>
         <h4>OM OS</h4>
-        <p>Denne hjemmeside er lavet af
+        <p class="tekst_footer">Denne hjemmeside er lavet af
             <br> 
            den lokale borgerforening i Hejlsminde.
            <br>
@@ -79,7 +90,7 @@
 
     <section>
         <h4>NYHEDSBREV</h4>
-                <p>Tilmeld dig vores nyhedsbrev og bliv opdateret på informationer og aktiviteter i Hejlsminde.
+                <p class="tekst_footer">Tilmeld dig vores nyhedsbrev og bliv opdateret på informationer og aktiviteter i Hejlsminde.
                 </p>
 
                 <p id="skrivmail">
