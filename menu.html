@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
 </head>
-<body>
+<body id="baggrund">
     <style>
         *{
             margin: 0;
@@ -26,19 +26,38 @@
             text-decoration: none;
             color: rgba(188, 214, 239, 1) ;
             display: flex;
-            justify-content: center;
+            
             width: 100%;
-            padding-top: 12px;
-            padding-bottom: 12px;
+            padding-top: 20px;
+            padding-bottom: 20px;
             border-bottom: 1px solid white;
             width: 100%;
             background-color: rgba(24, 64, 83, 1) ;
+            margin-left: 15px;
         }
 
         nav a:hover{
            color: white
         }
+
+        #burgermenu{
+        background-color:white;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 2%; }
+
+        #baggrund{background-color:rgba(24, 64, 83, 1) ;
+
+        }
+
+    
     </style>
+
+<header id="burgermenu">
+    <a href="index.html"><img src="billeder/logomobil.jpg" alt="logoburger"></a>
+    <a href="index.html"><img src="billeder/kryds.png" alt="kryds"></a>
+</header>
+
 
 <nav>
     <a href="stranden.html">STRANDEN</a>
