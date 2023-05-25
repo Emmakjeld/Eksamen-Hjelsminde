@@ -16,7 +16,7 @@ nav a{
     font-family:'Montserrat', sans-serif;
 }
 nav a:hover {
-    border-bottom: 2px solid rgba(188, 214, 239, 1);
+    border-bottom: 1px solid rgba(24, 64, 83, 1);
   }
 header{display:flex;
     justify-content: space-between;
@@ -257,10 +257,9 @@ background-color: rgba(188, 214, 239, 1);
 
 #pladsholdergroen{
     width: 100%;
-    height: 2500px;
+    height: 1450px;
     background: rgba(195, 210, 203, 1);
     }
-
 
 
 /*Footer*/
@@ -304,7 +303,7 @@ footer div section{
 
 #tilmeld{
 width: 30%;
-padding: 10px;
+padding:10px;
 background-color:rgba(188, 214, 239, 1) ;
 border: none;
 font-family:'Montserrat', sans-serif;
@@ -337,16 +336,9 @@ background:rgba(24, 64, 83, 1) ;
 z-index: 1;
 }
 
-.tekstfirkant_venstre div{
-width: 100%;
-}
-
-
-
-
-.tekstfirkant_højre{
+.tekstfirkant_hoejre{
     position: absolute;
-    width: 47%;
+    width: 50%;
     height: 392px;
     left: 48%;
     top: 112%;
@@ -354,7 +346,7 @@ width: 100%;
     z-index: 1;
     }
 
-.tekstfirkant_højre div{
+.tekstfirkant_hoejre div{
 width: 100%;
 }
 
@@ -392,7 +384,7 @@ background:rgba(195, 210, 203, 1);
 z-index: 1;
 }
 
-.groentekstfirkant_højre{
+.groentekstfirkant_hoejre{
     position: absolute;
     width: 662px;
     height: 392px;
@@ -424,17 +416,17 @@ position: absolute;
 width: 660px;
 height: 392px;
 left: 5%;
-top: 133%;
+top: 28%;
 background:rgba(69, 98, 89, 1) ;
 z-index: 1;
 }
 
-.moerktekstfirkant_højre{
+.moerktekstfirkant_hoejre{
     position: absolute;
     width: 662px;
     height: 392px;
     left: 48%;
-    top: 235%;
+    top: 112%;
     background:rgba(69, 98, 89, 1);
     z-index: 1;
     }
@@ -514,10 +506,10 @@ margin-top: 2%;
 
 /*Billeder*/
 .trebilleder{
-    display: flex;
-    align-items: center;
-   justify-content: center;
-    padding: 4%;
+display: flex;
+align-items: center;
+justify-content: center;
+padding: 4%;
 }
 
 /*Laptop*/
@@ -547,13 +539,14 @@ margin-top: 2%;
         display: none;
     }
 
-    .billede_højreside{
+    .billede_hoejre{
         display: block;
     }
 
     .mobilbillede_hoejre{
         display: none;
     }
+
 }
 
 
@@ -602,11 +595,124 @@ margin-top: 2%;
         padding: 5%;
     }
 
-    
-    
+    /*Stranden til mobil*/
+    .billede_hoejre{
+        display: none;
+    }
 
-   
+    .billede_hoejre{
+    position: static;
+    height: 300px;
+    }
+
+    .tekstfirkant_venstre{
+    position: static;
+    width: 100%;
+    height: 450px;
+    padding-top: 8%;
+    margin-top: 4%;
+    }
+
+    .blaeoverskrift{
+        font-size: 15pt;
+    }
+
+    p{
+        font-size: 9pt;
+    }
+
+    ol{font-size: 9pt;}
+
+    .billede_venstre{
+        display: none;
+    }
+
+    .tekstfirkant_hoejre{
+    position: static;
+    width: 100%;
+    height: 400px;
+    padding-top: 8%; 
+    }
+    
+    /*Lystbådehavnen til mobil*/
+    .blaetekstfirkant_venstre{
+    position: static;
+    width: 100%;
+    height: 450px;
+    padding-top: 8%;
+    margin-top: 4%;
+    }
+
+    .blaetekstfirkant_hoejre{
+    position: static;
+    width: 100%;
+    height: 450px;
+    padding-top: 2%; }
+
+    .overskrift_havn{
+    font-size: 15pt;
+    }
+
+    .tekst_havn{
+    font-size: 9pt;
+    }
+
+    /*Hejls Nor til mobil*/
+    .groentekstfirkant_venstre{
+    position: static;
+    width: 100%;
+    height: 430px;
+    padding-top: 8%;
+    margin-top: 4%;
+    }
+
+    .groentekstfirkant_hoejre{
+    position: static;
+    width: 100%;
+    height: 430px;
+    padding-top: 2%;
+    }
+
+    #groenoverskrift{
+        font-size: 15pt 
+    }
+
+    /*Inspiration og faciliteter til mobil*/
+    h1{
+    font-size:12pt;
+    text-align:left;
+    }
+
+    .tekstpaakort{
+    font-size: 9pt;
+    text-align: left;
+    }
+
+    .moerktekstfirkant_venstre{
+    position: static;
+    width: 100%;
+    height: 450px;
+    padding-top: 8%;
+    margin-top: 4%;
+    }
+
+    .moerktekstfirkant_hoejre{
+    position: static;
+    width: 100%;
+    height: 450px;
+    padding-top: 2%;
+    }
+
+    .lysgroen_overskrift{
+    font: size 12pt; 
+    }
+
+    .lysgroen_tekst{
+    font-size: 9pt;
+    }
+
 }
+
 
 
 
