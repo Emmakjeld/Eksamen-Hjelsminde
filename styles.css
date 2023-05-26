@@ -29,9 +29,12 @@ header{
     position: fixed;
     top: 0;
     width: 100%;
-    padding-top: 1%;
+    padding-top: 0.5%;
 }
 
+#laptoplogo{
+    padding-left: 1%;
+}
 
 /*Forside*/
 #maps{
@@ -640,15 +643,19 @@ ol{
         padding: 5%;
     }
 
+
     /*Billeder*/
     .billede_hoejre{
         display: none;
     }
-
+   
     .billede_venstre{
         display: none;
     }
 
+    .mobilbillede_hoejre{
+        display: block;
+    }
 
     /*Stranden til mobil*/
     .tekstfirkant_venstre{
@@ -659,23 +666,23 @@ ol{
         margin-top: 4%;
     }
 
-    .blaeoverskrift{
-        font-size: 15pt;
-    }
-
-    p{
-        font-size: 9pt;
-    }
-
-    ol{
-        font-size: 9pt;
-    }
-
     .tekstfirkant_hoejre{
         position: static;
         width: 100%;
         height: 450px;
         padding-top: 8%; 
+    }
+
+    .blaeoverskrift{
+        font-size: 15pt;
+    }
+
+    p{
+        font-size: 10pt;
+    }
+
+    ol{
+        font-size: 10pt;
     }
     
     /*Lystbådehavnen til mobil*/
@@ -699,7 +706,7 @@ ol{
     }
 
     .tekst_havn{
-        font-size: 9pt;
+        font-size: 10pt;
     }
 
     /*Hejls Nor til mobil*/
@@ -724,12 +731,12 @@ ol{
 
     /*Inspiration og faciliteter til mobil*/
     h1{
-        font-size:12pt;
+        font-size:15pt;
         text-align:left;
     }
 
     .tekstpaakort{
-        font-size: 9pt;
+        font-size: 10pt;
         text-align: left;
     }
 
@@ -749,11 +756,11 @@ ol{
     }
 
     .lysgroen_overskrift{
-        font-size: 12pt; 
+        font-size: 15pt; 
     }
 
     .lysgroen_tekst{
-        font-size: 9pt;
+        font-size: 10pt;
     }
 
     .pladsholder{
